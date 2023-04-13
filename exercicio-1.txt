@@ -1,0 +1,10 @@
+
+                A IMPORTÂNCIA DO HTML, CSS E JAVASCRIPT NA CONSTRUÇÃO DE PÁGINAS WEB
+
+O HTML é a base de uma página web. É no HTML que a estrutura e a semântica da página é construída.
+O CSS é o responsável pelo estilo da página web. É nele que é definido a estilização de todos os componentes.
+O Javascript é a alma da página web. É ele que interage com as ações do usuário e da vida a página web.
+
+
+
+
