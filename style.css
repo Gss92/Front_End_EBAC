@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+section h2,
+section h3,
+button {
+    font-family: 'Alkatra', cursive;
+    font-weight: 600;
+}
+
+body, input, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: brown;
+    padding: 16px 0;
+    color: #fff;
+    max-width: auto;
+}
+
+header .title h1 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+header .title h2 {
+    margin-left: 80px;
+}
+
+header .title h3 {
+    margin-left: 390px;
+    font-weight: lighter;
+}
+
+header .nav {
+    margin-top: 100px;
+}
+
+header nav {
+    margin-right: 70px;
+}
+
+header nav li {
+    display: inline;
+    font-size: 20px;
+    margin-left: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2,
+section h3 {
+    color: brown;
+}
+
+section p {
+    color: rgb(65, 65, 65) ;
+}
+
+#synopsis .container h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#synopsis .container p {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#synopsis .container img {
+    height: 200px;
+}
+
+#summary .container h2 {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#summary .container p {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#summary .container .summary-p {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#summary .img-book {
+    margin-top: 150px;
+}
+
+.icon-list img {
+    height: 50px;
+    margin-top: 25px;
+}
+
+.icon-list li {
+    font-weight: bold;
+    display: inline;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+#author .container h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#author .container p {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+#contact .container {
+    display: block;
+}
+
+#contact .container h2 {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin: 8px;
+    padding: 8px;
+    margin-left: 100px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px
+}
+
+form button {
+    background-color: brown;
+    border: none;
+    color: #fff;
+}
+
+form button:hover {
+    cursor: pointer;
+    background-color: rgb(211, 89, 89);
+}
+
+input:focus, textarea:focus {
+    outline-color: brown;
+}
+
+section h3 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+#contact .social-midias h3 {
+    margin-right: 250px;
+}
+
+#contact .social-links li {
+    display: inline;
+}
+
+#contact .social-links img {
+    height: 70px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+footer {
+    background-color: brown;
+    color: #fff;
+    padding: 18px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    text-align: center;
+}
