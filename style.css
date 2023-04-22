@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(149, 169, 184);
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+h1 {
+    display: block;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: large;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    padding: 3px 0;
+    font-size: large;
+}
+
+#completeName {
+    width: 100%;
+}
+
+#email {
+    width: 40%;
+}
+
+#telephone {
+    width: 30%;
+}
+
+#cpf {
+    width: 30%;
+}
+
+#address {
+    width: 100%;
+}
+
+#numberAddress {
+    width: 10%;
+}
+
+#neighborhood {
+    width: 40%;
+}
+
+#city {
+    width: 40%;
+}
+
+#cep {
+    width: 30%;
+}
+
+button {
+    display: block;
+    background-color: rgb(48, 167, 64);
+    margin-top: 20px;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

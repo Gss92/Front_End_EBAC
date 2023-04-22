@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício Plugin jQuery</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <form>
+        <div class="form-field">
+            <label for="completeName">Nome completo:</label>
+        <input type="text" name="completeName" id="completeName">
+            </div>
+        <div class="form-field">
+            <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        </div>
+        <div class="form-field">
+            <label for="telephone">Telefone:</label>
+            <input type="tel" name="telephone" id="telephone">
+        </div>
+        <div class="form-field">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf">
+        </div>
+        <div class="form-field">
+            <label for="address">Endereço:</label>
+            <input type="text" name="address" id="address">
+        </div>
+        <div class="form-field">
+            <label for="numberAddress">Número:</label>
+            <input type="number" name="numberAddress" id="numberAddress">
+        </div>
+        <div class="form-field">
+            <label for="neighborhood">Bairro:</label>
+            <input type="text" name="neighborhood" id="neighborhood">
+        </div>
+        <div class="form-field">
+            <label for="city">Cidade:</label>
+            <input type="text" name="city" id="city">
+        </div>
+        <div class="form-field">
+            <label for="cep">CEP:</label>
+            <input type="text" name="cep" id="cep">       
+        </div>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./Js/jquery.mask.min.js"></script>
+    <script src="./Js/jquery.validate.min.js"></script>
+    <script src="./Js/messages_pt_BR.min.js"></script>
+    <script src="./Js/index.js"></script>
+</body>
+</html>
