@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+
+body {
+    background-color: rgba(0, 0, 100, 0.2)
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 8px;
+    font-size: 18px;
+    margin-left: 5px;
+    background-color: rgb(82, 173, 30);
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding-inline: 25px;
+    font-size: 18px;
+}
+
+ul {
+    display: block;
+    text-align: center;
+}
+
+li {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+li.lineThrough {
+    text-decoration: line-through;
+    list-style: disc;
+}
