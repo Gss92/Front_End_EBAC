@@ -1,0 +1,72 @@
+@mainFont: Roboto, sans-serif;
+@titleFont: Rajdhani, cursive;
+@bodyColor: #b2bec3;
+@textColor: #2d3436;
+@btnColor: #00b894;
+@btnHoverColor: #55efc4;
+
+body {
+    background-color: @bodyColor;
+}
+
+main {
+    max-width: 960px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+    color: @textColor;
+
+    .title {
+        font-family: @titleFont;
+        margin-top: 80px;
+
+        h1 {
+            text-transform: uppercase;
+        }
+
+        h3 {
+            opacity: 0.7;
+        }
+    }
+}
+
+input {
+    display: block;
+    margin: 15px auto 10px;
+    padding: 15px;
+    max-width: 120px;
+    font-size: 1em;
+}
+
+button {
+    background-color: @btnColor;
+    padding: 15px;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .8;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: @mainFont;
+
+    &:hover {
+        background-color: @btnHoverColor;
+    }
+}
+
+.result {
+    display: none;
+    background-color: @textColor;
+    color: @btnColor;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+
